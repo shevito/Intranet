@@ -1,0 +1,22 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <article class="media content-section">
+        <img class="rounded-circle article-img" src="{{ user.profile.image.url }}">
+        <div class="media-body">
+            <div class="article-metadata">
+                <a class="mr-2" href="#">{{ object.author }}</a>
+                <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
+            </div>
+            <h2 class="article-title">{{ object.title }}</h2>
+            <p class="article-content">{{ object.content }}</p>
+            {% if object.text_file %}
+                <div class="d-flex justify-content-between align-items-end">
+                    <p>{{ object.text_file.name }}</p>
+                    <a href="{{ object.text_file.url }}" download>
+                        <button class="btn btn-primary">Descargar</button>
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </article>
+{% endblock content %}
