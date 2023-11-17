@@ -13,7 +13,8 @@ This project focuses on the development and deployment of a robust intranet solu
 
 ## Contact
 
-Owner - @shevijp - shevi2105@gmail..com
+Owner - @shevijp - shevi2105@gmail.com
+
 Project Link: [https://github.com/shevito/Intranet]
 
 ## Installation
