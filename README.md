@@ -11,6 +11,11 @@ This project focuses on the development and deployment of a robust intranet solu
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
+## Contact
+
+Owner - @shevijp - shevi2105@gmail..com
+Project Link: [https://github.com/shevito/Intranet]
+
 ## Installation
 
 Steps to install your project. For example:
